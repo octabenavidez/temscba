@@ -160,11 +160,11 @@ export default function Boliche() {
                     </div>
 
                     <div>
-                        <h2 className="text-4xl mt-14 text-white">
+                        <h2 className="text-center md:text-start text-4xl mt-14 text-white">
                             Quiza te interese...
                         </h2>
 
-                        <div className="flex gap-16 justify-center">
+                        <div className="flex-col items-center md:flex-row flex gap-16 justify-center">
                             {bolichesAleatorios.length > 0 && (
                                 <CardBoliche boliches={bolichesAleatorios} />
                             )}
